@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(248,244,225);
+    background: linear-gradient(0deg, rgba(248,244,225,1) 0%, rgba(116,81,45,1) 100%);
+  }
+  /* .hero {
+    width: 800px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  .launch-time {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+  }
+  .launch-time div {
+    flex-basis: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .launch-time div p {
+    color: #fff;
+    text-shadow: 2px 3px black;
+    font-size: 40px;
+    margin-bottom: -14px;
+  }
+  .launch-time div span {
+    color: #5a5858;;
+    text-shadow: 1px 1px rgb(198, 189, 189);
+  }
+  .parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .ump h1{
+    font-family: cursive;
+    font-size: 5rem;
+   
+  }
+  .op{
+    padding-top: 20px;
+  }
+  .op input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 100px;
+  }
+  button{
+    padding: 10px;
+    background-color: transparent ;
+    color: #5a5858;
+    border: 3px solid black;
+  }
+  .op input{
+    background-color: transparent;
+    border: 3px solid black;
+  }
+  input::placeholder{
+    color: #5a5858;
+  }
+  .icons{
+    padding-top: 20px;
+    font-size: 25px;
+  }
+  .icons a{
+    text-decoration: none;
+    color: black;
+  }
+  .logo img{
+    height: 10rem;
+    padding-bottom: 20px;
+    
+  }
+  h2{
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .ump h1{
+    padding-bottom: 20px;
+  }
+  @media (max-width: 583px) {
+    .ump h1{
+      font-size: 40px;
+    }
+    h2{
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 404px){
+    .op input{
+     width: 9.5rem;
+    }
+  }
+  @media (max-width: 320px){
+    h2{
+      text-align: center;
+    }
+  }
+  @media (max-width: 362px){
+    h2{
+      font-size: 17px;
+    }
+    .logo img{
+      height: 7rem;
+    }
+     .ump h1{
+      font-size: 38px;
+    }
+  }
